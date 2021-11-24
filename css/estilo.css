@@ -124,10 +124,10 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
+/*
 section {
     padding-top: 10%;
-}
+}*/
 
 #rodape {
     font-family: Arial, Helvetica, sans-serif;
@@ -187,8 +187,6 @@ section {
     border-style: inset;
     border-bottom-style: none;
 }
-
-
 
 .div3 {
     margin-left: auto;
@@ -273,7 +271,7 @@ section {
     display: inline-block;
     font-weight: bold;
     margin-bottom: 5px;
-    width: 100%
+    
   }
   
   .question input:checked ~ .answer {
@@ -287,7 +285,8 @@ section {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    padding:15%;
+    padding:10%;
+    
 }
     
 .titulo_funcionario { 
@@ -339,8 +338,6 @@ section {
     margin-left: auto;
     margin-right: auto; 
 }
-
-
 
 /*Grade Curricular*/
 #conteudo_grade2{
@@ -502,7 +499,6 @@ section {
     margin-right: auto; 
 }
 
-
 input, select{
     width: 70%;
     height: 25px;
@@ -512,8 +508,6 @@ input, select{
     margin-top: 1%;
     margin-bottom: 1%;
 }
-
-
 
 legend{
     font-weight: bold;
@@ -533,9 +527,9 @@ legend{
     width: 80%;
     
 }
-label{
+/*label{
     font-weight: bold;
-}
+}*/
 
 .fieldset_bilhete{
     border-color: #000000;
@@ -545,9 +539,20 @@ label{
     margin-left:auto;
     margin-right: auto;
     padding: 1%; 
-    
+
 }
 
+.fieldset_contato{
+    border-color: #000000;
+    border-radius: 15px;
+    margin-bottom: 1%;
+    width: 50%;
+    height: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 1%;
+    text-align: left; 
+}
 
 input[type=submit]{
     width: 15%;
@@ -591,8 +596,7 @@ input[type=reset]{
 
 
 /*Romulo inicio*/
-.questi
-on {
+.question {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #ccc;
@@ -700,19 +704,6 @@ on {
     height: 90%;
     border-radius: 15px;
 }
-tab4 { padding-left: 15.0%}
-tab9 { padding-left: 25.5%}
-tab10{ padding-left: 16.5%}
-tab6 { padding-left: 23.0%}
-tab5 { padding-left: 22.8%}
-tab3{padding-left: 5.5%}
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1140px) {
     header h1 {

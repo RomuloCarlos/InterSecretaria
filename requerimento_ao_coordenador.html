@@ -17,6 +17,20 @@
 
 <body>
     <header id="topo">
+        <div id="acessibilidade">
+            <ul id="atalhos">
+                <li><a href="#conteudo" accesskey="1" title="Ir diretamente para o conteúdo">Ir para o conteúdo [1]</a></li>
+                <li><a href="#menu" accesskey="2" title="Ir diretamente para o menu">Ir para o menu [2]</a></li>
+                <li><a href="#rodape" accesskey="3" title="Ir diretamente para o rodapé">Ir para o rodapé [3]</a></li>
+                
+                <li id="pgacess"><a href="acessibilidade.html" title="Ir para a página de Acessibilidade">ACESSIBILIDADE</a></li>
+    
+                <li class="contraste"><a href="javascript:void(0);" id="contraste">CONTRASTE PRETO</a></li>
+                <li class="contraste"><a href="javascript:void(0);" id="sem_contraste">SEM CONTRASTE</a></li>
+                <li class="fonte"><a href="javascript:void(0);" id="aumentar">A+</a></li>
+                <li class="fonte"><a href="javascript:void(0);" id="diminuir">A-</a></li>
+            </ul>
+        </div>
         <img class="logo" src="imagem/logoFatecZL.png" alt="Imagem com a palavra Fatec Zona Leste em branco">
         <h1>SECRETARIA FATEC ZONA LESTE</h1>
         <img class="logo-sp" src="imagem/logoSP.png" alt="Imagem com a palavra São Paulo Governo do Estado em branco">
@@ -58,6 +72,7 @@
                         <li><a href="solicitacao_de_documentos.html">Solicitação de Documentos</a></li>
                         <li><a href="formulario_bilhete_unico.html">Formulário Bilhete Único</a></li>
                         <li><a href="formulario_bilhete_bom.html">Formulário Bilhete BOM</a></li>
+                        <li><a href="prazo.html">Prazo de entrega de documento</a></li>
                     </ul>
                 </li>
                 <li><a href="regulamentos.html">Regulamentos</a></li>
@@ -81,17 +96,17 @@
                 <h1>Requirimento ao Coordenador</h1>
                 <fieldset class="fieldset_bilhete">
                     <legend>Dados da Requisição</legend>
-                        <label for="nome_req" class="required">Nome Completo</label><tab4>
+                        <label for="nome_req" class="required">Nome Completo</label><br>
                         <input type="text" name="nome" id="nome" required placeholder="Nome Completo"><br>
-                        <label for="ra_req" class="required">RA</label><tab9></tab9>
+                        <label for="ra_req" class="required">RA</label><br>
                         <input type="text" name="ra" id="ra" required placeholder="9999999999999"><br>
-                        <label for="curso_req" class="required">Curso e Turno</label><tab10></tab10>
+                        <label for="curso_req" class="required">Curso e Turno</label><br>
                         <input type="text" name="curso" id="curso" required><br>
-                        <label for="email" class="required">E-Mail</label><tab6></tab6>
+                        <label for="email" class="required">E-Mail</label><br>
                         <input type="email" name="email" id="email" required placeholder="nome@site.com.br"><br>
-                        <label for="celular">Celular</label><tab5>
+                        <label for="celular">Celular</label><br>
                         <input type="tel" name="celular" id="celular" placeholder="(99) 99999-9999"><br>
-                        <label for="mensagem" class="required">Solicitação ao Coordenador</label><tab3>
+                        <label for="mensagem" class="required">Solicitação ao Coordenador</label>
                         <textarea name="mensagem" id="mensagem" placeholder="Digite a mensagem aqui" required></textarea>
                         
 

@@ -13,6 +13,20 @@
 </head>
 <body>
     <header id="topo">
+        <div id="acessibilidade">
+            <ul id="atalhos">
+                <li><a href="#conteudo" accesskey="1" title="Ir diretamente para o conteúdo">Ir para o conteúdo [1]</a></li>
+                <li><a href="#menu" accesskey="2" title="Ir diretamente para o menu">Ir para o menu [2]</a></li>
+                <li><a href="#rodape" accesskey="3" title="Ir diretamente para o rodapé">Ir para o rodapé [3]</a></li>
+                
+                <li id="pgacess"><a href="acessibilidade.html" title="Ir para a página de Acessibilidade">ACESSIBILIDADE</a></li>
+    
+                <li class="contraste"><a href="javascript:void(0);" id="contraste">CONTRASTE PRETO</a></li>
+                <li class="contraste"><a href="javascript:void(0);" id="sem_contraste">SEM CONTRASTE</a></li>
+                <li class="fonte"><a href="javascript:void(0);" id="aumentar">A+</a></li>
+                <li class="fonte"><a href="javascript:void(0);" id="diminuir">A-</a></li>
+            </ul>
+        </div>
         <img class="logo" src="imagem/logoFatecZL.png" alt="Imagem com a palavra Fatec Zona Leste em branco">
         <h1>SECRETARIA FATEC ZONA LESTE</h1>
         <img class="logo-sp" src="imagem/logoSP.png" alt="Imagem com a palavra São Paulo Governo do Estado em branco">
@@ -54,19 +68,21 @@
                         <li><a href="solicitacao_de_documentos.html">Solicitação de Documentos</a></li>
                         <li><a href="formulario_bilhete_unico.html">Formulário Bilhete Único</a></li>
                         <li><a href="formulario_bilhete_bom.html">Formulário Bilhete BOM</a></li>
+                        <li><a href="prazo.html">Prazo de entrega de documento</a></li>
                     </ul>
                 </li>
                 <li><a href="regulamentos.html">Regulamentos</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="calendario.html">Calendário Acadêmico</a></li>
             </ul>
+            
         </nav>
     </header>
     <main id="conteudo_bilhete_bom">
-        <section>   
+        <section class="form_bilhetes">   
          <form id="valida" id="valida" method="post" onsubmit="return validar();">
              <h1>Solicitação de Documentos</h1>
-            <fieldset>
+            <fieldset class="fieldset_bilhete">
                 <legend>Dados Pessoais</legend>
                     <label for="nome" class="required">  Nome </label><br>
                     <input type="text" name="nome" id="nome" required
@@ -89,8 +105,8 @@
                     
                     
             
-                <p id="checkbox-cor"><input type="checkbox" value="" id="checkbox-1">Declaro que li o informativo</p>   
-            </fieldset>   
+                <p id="checkbox-cor"><input type="checkbox" value="" id="checkbox-1"class="required">Declaro que li o informativo</p>   
+              
 
             <table>
                 <tr>
@@ -144,7 +160,7 @@
                       </select></td>
                   </tr>
               </table>
-
+            </fieldset>
 
 
             <input type="submit" name="enviar" id="enviar"value="::.Enviar.::">
