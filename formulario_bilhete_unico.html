@@ -7,7 +7,11 @@
     <meta name="description" content="Trabalho interdisciplinar, DSM">
     <meta name="keywords" content="Trabalho interdisciplinar, DSM, Sistema de Solicitação para a Secretaria">
     <meta name="author" content="Grupo 8, DSM">
-    <script src="validacao.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/validacao.js"></script>
+    <script src="js/cep.js"></script>
+    <script src="js/mascara.js"></script>
     <title>Fomulário Bilhete Unico</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
@@ -123,17 +127,19 @@
             </fieldset>
             <fieldset class="fieldset_bilhete">
                 <legend>Endereço</legend>
-                    <label for="cep">CEP</label><br>
-                    <input type="text"  class="required" name="cep" id="cep" required
+                    <label for="cep" class="required">CEP</label><br>
+                    <input type="text" name="cep" id="cep" required
                     placeholder="99999-999"><br>
-                    <label for="estado">Estado</label><br>
-                    <input type="text" name="estado" id="estado"><br>
+                    <label for="rua">Endereço</label><br>
+                    <input type="text" name="rua" id="rua"><br>
+                    <label for="bairro">Bairro</label><br>
+                    <input type="text" name="bairro" id="bairro"><br>
                     <label for="cidade">Cidade</label><br>
                     <input type="text" name="cidade" id="cidade"><br>
-                    <label for="endereço">Endereço</label><br>
-                    <input type="text" name="endereço" id="endereço"><br>
-                    <label for="complemento">Complemento</label><br>
-                    <input type="text" name="complemento" id="complemento"><br>
+                    <label for="estado">Estado</label><br>
+                    <input type="text" name="estado" id="estado"><br>
+                    <label for="numero">Número</label><br>
+                    <input type="text" name="numero" id="numero"><br>
                     <label for="curso" class="required">Curso</label><br>
                     <input type="text" name="curso" id="curso" required
                      placeholder="Curso"><br>
