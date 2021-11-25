@@ -8,18 +8,19 @@
     <meta name="description" content="Trabalho interdisciplinar, DSM">
     <meta name="keywords" content="Trabalho interdisciplinar, DSM, Sistema de Solicitação para a Secretaria">
     <meta name="author" content="Grupo 8, DSM">
-    <script src="validacao.js"></script>
-    <title>Fomulário Bilhete Unico</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilo.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/fonte.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/validacao.js"></script>
+    <script src="js/cep.js"></script>
+    <script src="js/mascara.js"></script>
+    <title>Fomulário Bilhete Unico</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <header id="topo">
         <div id="acessibilidade">
             <ul id="atalhos">
-                <li><a href="#conteudo_bilhete_bom" accesskey="1" title="Ir diretamente para o conteúdo">Ir para o conteúdo [1]</a></li>
+                <li><a href="#conteudo" accesskey="1" title="Ir diretamente para o conteúdo">Ir para o conteúdo [1]</a></li>
                 <li><a href="#menu" accesskey="2" title="Ir diretamente para o menu">Ir para o menu [2]</a></li>
                 <li><a href="#rodape" accesskey="3" title="Ir diretamente para o rodapé">Ir para o rodapé [3]</a></li>
                 
@@ -36,8 +37,6 @@
         <img class="logo-sp" src="imagem/logoSP.png" alt="Imagem com a palavra São Paulo Governo do Estado em branco">
         <img class="logo-cps" src="imagem/logoCPS.png" alt="Imagem com a palavra CPS Centro Paula Souza em branco">
         <nav>
-            <label for="bt_menu"><img src="imagem/menu.png" alt="menu"></label>
-            <input type="checkbox" id="bt_menu">
             <ul id="menu">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="javascript:void(0);">Grade</a>
@@ -81,17 +80,8 @@
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="calendario.html">Calendário Acadêmico</a></li>
             </ul>
+            
         </nav>
-        <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper>
-              <div class="vw-plugin-top-wrapper"></div>
-            </div>
-        </div>
-          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-          <script>
-            new window.VLibras.Widget('https://vlibras.gov.br/app');
-          </script>
     </header>
     <ul class="breadcrumb">
         <li><a href="index.html">Início</a></li>
@@ -116,7 +106,7 @@
                 placeholder="99.999.999-99"><br>
                 <label for="emissao"  class="required" >Emissão</label><br>
                 <input type="text" name="emissao" id="emissao" required
-                placeholder="Local de emissao"><br>
+                placeholder="Local de emissão"><br>
                 <label for="uf"  class="required" >UF</label><br>
                 <input type="uf" name="uf" id="uf" required
                 placeholder="Unidade Federativa"><br>
@@ -137,15 +127,17 @@
         </fieldset>
         <fieldset class="fieldset_bilhete">
             <legend>Endereço</legend>
-                <label for="cep">CEP</label><br>
-                <input type="text"  class="required" name="cep" id="cep" required
+                <label for="cep" class="required">CEP</label><br>
+                <input type="text" name="cep" id="cep" required
                 placeholder="99999-999"><br>
-                <label for="estado">Estado</label><br>
-                <input type="text" name="estado" id="estado"><br>
+                <label for="rua">Endereço</label><br>
+                <input type="text" name="rua" id="rua"><br>
+                <label for="bairro">Bairro</label><br>
+                <input type="text" name="bairro" id="bairro"><br>
                 <label for="cidade">Cidade</label><br>
                 <input type="text" name="cidade" id="cidade"><br>
-                <label for="endereço">Endereço</label><br>
-                <input type="text" name="endereço" id="endereço"><br>
+                <label for="estado">Estado</label><br>
+                <input type="text" name="estado" id="estado"><br>
                 <label for="complemento">Complemento</label><br>
                 <input type="text" name="complemento" id="complemento"><br>
                 <label for="curso" class="required">Curso</label><br>
