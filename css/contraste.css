@@ -365,7 +365,7 @@ section {
 #acessibilidade{
     width: 100%;
     height: auto;
-    /*background-color: #ffffff;*/
+    background-color:#000;
     margin: auto;
 }
 #atalhos{
@@ -373,7 +373,7 @@ section {
     font-size: 1em;
     list-style: none;
     padding-left: 1%;
-    background-color: #ffffff;
+    background-color: #000;
 }
 #atalhos li{
     display: inline;
