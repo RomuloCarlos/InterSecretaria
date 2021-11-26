@@ -271,9 +271,10 @@ nav {
     padding-bottom: 1%;
     padding-left: 8%;
     background-color: #000;
-
 }
-
+footer{
+    background-color: #000;
+}
 .question {
     border-bottom: 1px solid #ccc;
     padding: 10px 0
@@ -481,8 +482,9 @@ nav {
     margin-right: auto;
     padding-top: 2%;
     padding-bottom: 1%; 
-    color: #000; 
-    
+}
+#div_conteudo1 h2{
+    color: #000;
 }
 #div_conteudo2{
     background-color: #000;
