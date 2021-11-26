@@ -270,6 +270,7 @@ nav {
     margin-left: 20%;
     padding-bottom: 1%;
     padding-left: 8%;
+    background-color: #000;
 
 }
 
@@ -327,14 +328,14 @@ nav {
 
 .conteudo_funcionario { 
     grid-area: 2 / 1 / 3 / 2; 
-    background-color: #E5E5E5;
+    background-color: #000;
     /*border-style: inset;*/
     border-top-style: none;
     border-right-style: none;  
 }
 .conteudo_atendimento { 
     grid-area: 2 / 2 / 3 / 3; 
-    background-color: #E5E5E5;
+    background-color: #000;
     /*border-style: inset;*/
     border-top-style: none;
     border-left-style: none;
@@ -473,18 +474,18 @@ nav {
 
 /*regulamentos gabi*/
 #div_conteudo1{
-    background-color: #000;
+    background-color: #fff;
     width: 70%;
     height: 40%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 2%;
     padding-bottom: 1%; 
-    color: #fff; 
+    color: #000; 
     
 }
 #div_conteudo2{
-    background-color: #E5E5E5;
+    background-color: #000;
     width: 70%;
     height: 40%;
     margin-left: auto;
@@ -634,6 +635,24 @@ input[type=reset]{
     width: 88%;
     
   }
+  .question-1{
+      background-color: #fff;
+  }
+  .question-2{
+    background-color: #fff;
+    }
+    .question-3{
+        background-color: #fff;
+    }
+    .question-4{
+        background-color: #fff;
+    }
+    .question-5{
+        background-color: #fff;
+    }
+    .answer{
+        background-color: #fff;
+    }
   
   .question input,
   .question .answer {
