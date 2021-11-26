@@ -670,7 +670,7 @@ input[type=reset]{
 
 /*Bruno teste*/
 
-.breadcrumb_contato li{
+/*.breadcrumb_contato li{
     display: inline;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
@@ -697,7 +697,7 @@ input[type=reset]{
 .breadcrumb_contato li a:hover{
     color: #E5E5E5;
     text-decoration: underline;
-}
+}*/
 
 
 
