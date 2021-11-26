@@ -379,10 +379,10 @@ section {
     display: inline;
 }
 #atalhos li a{
-    color: #fff;
+    color: yellow;
 }
 #atalhos li a:hover{
-    color: #000;
+    color: #fff;
 }
 #pgacess{
     padding-left: 35%;
