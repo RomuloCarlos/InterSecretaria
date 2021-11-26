@@ -91,7 +91,7 @@ nav {
 
 #menu li ul {
     position: absolute;
-    top: 25px;
+    top: 27px;
     left: 0;
     background-color: #2E2E2E;
     display: none;
@@ -358,7 +358,7 @@ section {
 
 /* Gustavo fim */
 
-/*gabi inicio de verdade*/
+/*gabi inicio*/
 #acessibilidade{
     width: 100%;
     height: auto;
