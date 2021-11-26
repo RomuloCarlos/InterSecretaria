@@ -118,6 +118,12 @@ nav {
     color: #fff;
 }
 
+#section_index{
+    width: 100%;
+    height: 100%;
+    background-color:#000;
+}
+
 #conteudo {
     width: 100%;
     height: 100%;
@@ -419,6 +425,7 @@ section {
 
 #conteudo_index section {
     padding-top: 10%;
+
 }
 #conteudo_regulamentos section {
     padding-top: 7%;
