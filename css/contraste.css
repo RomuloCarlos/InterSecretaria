@@ -260,6 +260,7 @@ nav {
 }
 
 .grid_nome_unidade {
+    background-color: #000;
     padding-top: 1%;
     grid-area: 1 / 2 / 2 / 3;
 }
@@ -299,6 +300,7 @@ nav {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     padding:5%;
+    background-color: #000;
     
 }
     
