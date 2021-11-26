@@ -744,8 +744,11 @@ input[type=reset]{
 }
 
 #mensagem {
-    width: 50%;
-    height: 90%;
+    width: 70%;
+    height: auto;
+    margin-left: 1%;
+    padding-left: 0.5%;
+    padding-bottom: 10%;
     border-radius: 15px;
 }
 
@@ -972,3 +975,11 @@ label[for="bt_menu"]{
     }
     
 }
+
+/* responsividade imagem grade*/
+@media screen and (max-width: 1086px) {
+    #grade2_imagem{
+        width: 70%;
+        height: auto;
+    }
+  }
