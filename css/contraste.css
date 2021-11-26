@@ -169,6 +169,7 @@ section {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap:0%;
     grid-row-gap: 0%;
+    padding:4% ;
 
 }
 
