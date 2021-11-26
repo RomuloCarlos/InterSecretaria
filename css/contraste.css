@@ -115,9 +115,6 @@ nav {
     min-height: 505px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    /*background-image: url('fotoFatec.png');*/
-    background-repeat: no-repeat;
-    background-size: 100%;
     color: #fff;
 }
 
@@ -337,12 +334,10 @@ section {
     min-height: 505px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    /*background-image: url('fotoFatec.png');
-    background-repeat: no-repeat;
-    background-size: 100%;*/
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto; 
+
 }
 
 /*Grade Curricular*/
