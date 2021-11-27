@@ -21,7 +21,7 @@ function validar(){
 
     if(nome=="") {
         alert("O nome campo é obrigatório");
-        valida.nome.focus();
+        validar.nome.focus();
         return false; //return false é para o formulario não ser enviado sem a informação que foi solicitada. 
     }
     if(cpf==""){
