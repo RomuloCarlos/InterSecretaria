@@ -585,11 +585,12 @@ input[type=reset]{
     font-size: 20px;
 }*/
 
-#checkbox-1{
+.checkbox-1{
     width: 2%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 
 #checkbox-cor{
     color: #b00000;
@@ -978,7 +979,7 @@ label[for="bt_menu"]{
 
 /* responsividade imagem grade*/
 @media screen and (max-width: 1086px) {
-    #grade2_imagem{
+    .grade2_imagem{
         width: 70%;
         height: auto;
     }

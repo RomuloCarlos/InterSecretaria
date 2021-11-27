@@ -101,17 +101,17 @@
     </ul>
     <main id="conteudo_bilhete_bom">
         <section class="form_bilhetes">   
-         <form id="valida" id="valida" method="post" onsubmit="return validar();">
-             <h1>Solicitação de Documentos</h1>
+         <form id="valida" method="post" onsubmit="return validar();">
+             <h2>Solicitação de Documentos</h2>
             <fieldset class="fieldset_bilhete">
                 <legend>Dados Pessoais</legend>
                     <label for="nome" class="required">  Nome </label><br>
                     <input type="text" name="nome" id="nome" required
                     placeholder="Nome Completo"><br>
-                    <label for="RA"  class="required" >RA</label><br>
+                    <label for="ra" class="required">RA</label><br>
                     <input type="text" name="ra" id="ra" required
                     placeholder="9999999999"><br>
-                    <label for = "email"  class="required">Email</label><br>
+                    <label for = "email" class="required">Email</label><br>
                     <input type="email" name="email" id="email"
                     required placeholder="nome@site.com.br"><br>
                     <label for="curso" class="required">Curso</label><br>
@@ -126,8 +126,9 @@
                     
                     
             
-                <p id="checkbox-cor"><input type="checkbox" value="" id="checkbox-1"class="required">Declaro que li o informativo</p>   
-              
+                <p id="checkbox-cor"><input type="checkbox" value="" class="checkbox-1" class="required" required="required">
+                    Declaro que li o informativo</p>   
+                    
 
             <table>
                 <tr>
@@ -137,7 +138,7 @@
                   <th>Quantidade</th>
                 </tr>
                 <tr>
-                  <td class="tdcheck"><p class="checkbox-doc"><input type="checkbox" value="" id="checkbox-1">Atestado de Matricula</p></td>
+                  <td class="tdcheck"><p class="checkbox-doc"><input type="checkbox" value="" class="checkbox-1">Atestado de Matricula</p></td>
                   <td>Atestado de Matricula</td>
                   <td>3</td>
                   <td><select name="quantidade">
@@ -148,7 +149,7 @@
                     </select></td>
                 </tr>
                 <tr>
-                  <td class="tdcheck"><p class="checkbox-doc"><input type="checkbox" value="" id="checkbox-1">Programa de Disciplinas</p></td>
+                  <td class="tdcheck"><p class="checkbox-doc"><input type="checkbox" value="" class="checkbox-1">Programa de Disciplinas</p></td>
                   <td>Programa de Disciplinas</td>
                   <td>5</td>
                   <td><select name="quantidade">
@@ -159,7 +160,7 @@
                     </select></td>
                 </tr>
                 <tr>
-                    <td class="tdcheck"><p class="checkbox-doc"><input type="checkbox" value="" id="checkbox-1">Historico Escolar</p></td>
+                    <td class="tdcheck"><p class="checkbox-doc"><input type="checkbox" value="" class="checkbox-1">Historico Escolar</p></td>
                     <td>Historico Escolar</td>
                     <td>5</td>
                     <td><select name="quantidade">
@@ -170,7 +171,7 @@
                       </select></td>
                   </tr>
                   <tr>
-                    <td class="tdcheck"><p class="checkbox-doc"><input type="checkbox" value="" id="checkbox-1">Atestado de conclusão- Aluno(a) Formando(a)</p></td>
+                    <td class="tdcheck"><p class="checkbox-doc"><input type="checkbox" value="" class="checkbox-1">Atestado de conclusão- Aluno(a) Formando(a)</p></td>
                     <td>Atestado de conclusão- Aluno(a) Formando(a)</td>
                     <td>3</td>
                     <td><select name="quantidade">
@@ -184,7 +185,7 @@
             </fieldset>
 
 
-            <input type="submit" name="enviar" id="enviar"value="::.Enviar.::">
+            <input type="submit" name="enviar" id="enviar" value="::.Enviar.::">
         </form> 
           </section> 
     </main>
@@ -192,16 +193,16 @@
         <div class="grid_rodape">
             <div class="grid_rede_social">
                 <h6>Redes Sociais</h6>  
-                <a href="https://www.facebook.com/fateczl.oficial/"><img src="imagem/facebook_blue.png" class="icone_rede"></a>
+                <a href="https://www.facebook.com/fateczl.oficial/">
+                <img src="imagem/facebook_blue.png" alt="Icone facebook" class="icone_rede"></a>
                 <a href="https://www.instagram.com/fateczl.oficial/">
-                <img src="imagem/instagram_blue.png" class="icone_rede"></a>
+                <img src="imagem/instagram_blue.png" alt="Icone instagram" class="icone_rede"></a>
                 <a href="https://twitter.com/Fateczl_oficial">
                 <img src="imagem/twitter_blue.png" class="icone_rede" alt="icone do twitter"></a>
                 <a href="https://www.linkedin.com/company/faculdade-de-tecnologia-zona-leste-fatec-zl/">
-                <img src="imagem/linkedin_blue.png" class="icone_rede"></a>
+                <img src="imagem/linkedin_blue.png" alt="Icone linkedin" class="icone_rede"></a>
                 <a href="https://www.youtube.com/channel/UCe04vfzsQcRrGgfaWyx-GoA">
-                <img src="imagem/youtube_blue.png" class="icone_rede"></a>
-                
+                <img src="imagem/youtube_blue.png" alt="Icone youtube" class="icone_rede"></a>    
         </div>
             <div class="grid_nome_unidade"><h6>Faculdade de Tecnologia da Zona Leste</h6>
                 <br><p>Endereço Avenida Águia de Haia, 2983. Cidade A.E. Carvalho, CEP 03694-000, São Paulo-SP.</p>
@@ -209,9 +210,10 @@
         </div>
         <div class="grid_desenvolvido">
             <p>
-                Desenvolvido por Ana Caroline Ferreira, Bruno Bodê Nascimento, Gabriella de Moraes, Gustavo do Carmo Vito, Rômulo Carlos Oliveira
-            </p></div>
+                Desenvolvido por Ana Caroline, Bruno Bodê, Gabriella de Moraes, Gustavo Vito, Rômulo Oliveira. <br>
+                Desenvolvimento WEB professor Edson Junior 2021&copy;.  
+            </p>
+        </div>
     </footer>
-    
 </body>
 </html>

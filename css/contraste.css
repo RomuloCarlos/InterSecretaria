@@ -169,8 +169,7 @@ nav {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap:0%;
     grid-row-gap: 0%;
-    padding:6% ;
-
+    padding-bottom: 10%;
 }
 
 .div1 {
@@ -268,8 +267,9 @@ nav {
 .grid_desenvolvido {
     grid-area: 2 / 1 / 3 / 3;
     padding-bottom: 1%;
-    padding-left: 10%;
+    /*padding-left: 10%;*/
     background-color: #000;
+
 }
 footer{
     background-color: #000;
@@ -610,7 +610,7 @@ input[type=reset]{
     font-size: 20px;
 }*/
 
-#checkbox-1{
+.checkbox-1{
     width: 2%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -623,6 +623,15 @@ input[type=reset]{
 /*Fim Css Carol*/
 
 
+
+.pergunta{
+    color: #fff;
+}
+.resposta{
+    color: #fff; 
+}
+
+
 /*Romulo inicio*/
 .question {
     margin-left: auto;
@@ -630,7 +639,7 @@ input[type=reset]{
     border: 2px solid #ccc;
     /*padding: 10px 0;*/
     padding:1%;
-    background-color: #E5E5E5;
+    background-color: #000;
     width: 88%;
     
   }
@@ -673,21 +682,23 @@ input[type=reset]{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    background-color: #000;
+
 }
 
 .titulofaq{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    background-color: #E5E5E5;
+    background-color: #000;
+    color:#fff;
 }
 #faqcont{
     padding-top: 1%;
-    
     width: 100%;
     height: 100%;
     padding-bottom:5%;
-
+    background-color: #000;
 }
 
 .icone_seta_baixo{
@@ -793,13 +804,10 @@ input[type=reset]{
     border-radius: 15px;
 }
 
-
-
 /* Romulo novo*/
 
 table, td, th {
     border: 1px solid black;
-
   }
 
   td, th {

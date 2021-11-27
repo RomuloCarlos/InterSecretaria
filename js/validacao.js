@@ -19,9 +19,10 @@ function validar(){
     var senha = valida.senha.value;
     var enviar = valida.enviar.value;
 
+   
     if(nome=="") {
         alert("O nome campo é obrigatório");
-        validar.nome.focus();
+        valida.nome.focus();
         return false; //return false é para o formulario não ser enviado sem a informação que foi solicitada. 
     }
     if(cpf==""){
